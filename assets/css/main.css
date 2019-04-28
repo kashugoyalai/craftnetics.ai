@@ -111,7 +111,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
-		color: #483949;
+		color: #01A4B5;
 		line-height: 1.25em;
 	}
 
@@ -1903,6 +1903,8 @@ input, select, textarea {
 		line-height: 1em;
 		list-style: none;
 		padding-left: 0;
+        color: #00454c;
+        padding-bottom: -5em;
 	}
 
 		ul.menu li {
@@ -1922,7 +1924,7 @@ input, select, textarea {
 
 	ul.icons {
 		position: relative;
-		background: rgba(128, 128, 128, 0.05);
+		background: #028897;
 		border-radius: 4em;
 		display: inline-block;
 		padding: 0.35em 0.75em 0.35em 0.75em;
@@ -1945,11 +1947,11 @@ input, select, textarea {
 				text-align: center;
 				border-radius: 100%;
 				border: 0;
-				color: inherit;
+				color: #035a63;
 			}
 
 				ul.icons li a:hover {
-					color: #ef8376;
+					color: #fff;
 				}
 
 /* Form */
@@ -1957,7 +1959,7 @@ input, select, textarea {
 	form label {
 		display: block;
 		font-weight: 400;
-		color: #af9bb0;
+		color: #fff;
 		margin: 1em 0 0 0;
 	}
 
@@ -1969,7 +1971,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		display: block;
 		border: 0;
-		background: #ddd4dd;
+		background: #fff;
 		width: 100%;
 		border-radius: 0.5em;
 		border: solid 1px #E5E5E5;
@@ -1985,8 +1987,8 @@ input, select, textarea {
 		form input[type="password"]:focus,
 		form select:focus,
 		form textarea:focus {
-			background: #c7b8c7;
-			border-color: #df7366;
+			background: #b3f6ff;
+			border-color: #008799;
 		}
 
 	form input[type="text"],
@@ -2069,7 +2071,7 @@ input, select, textarea {
 	.button {
 		position: relative;
 		display: inline-block;
-		background: #df7366;
+		background: #018998;
 		color: #fff;
 		text-align: center;
 		border-radius: 0.5em;
@@ -2091,7 +2093,7 @@ input, select, textarea {
 		button:hover,
 		.button:hover {
 			color: #fff;
-			background: #ef8376;
+			background: #00454c;
 		}
 
 		input[type="button"].alt,
@@ -2139,9 +2141,10 @@ input, select, textarea {
 		}
 
 		.icon.large {
+            color: #ccc;
 			display: inline-block;
 			font-family: FontAwesome;
-			font-size: 6em;
+			font-size: 5em;
 			text-decoration: none;
 			font-style: normal;
 			font-weight: normal;
@@ -2174,14 +2177,42 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		background: #fff;
 		margin: 0 0 2em 0;
 		padding: 6em 0 6em 0;
+        padding-bottom: 3em
 	}
 
 		.wrapper.style2 {
 			padding-top: 0;
 		}
+
+/* roadmap */
+
+    .roadmap {
+        background-color: #01a4b5;
+        margin: 0 0 2em 0;
+        padding: 3em 0 3em 0;
+        margin-bottom: -5em;
+    }
+
+.roadmap .container .row h1{
+    color: #fff
+}
+
+.roadmap .container h2{
+    color: #fff
+}
+
+.roadmap .container .row h3{
+    color: #fff
+}
+
+.roadmap .container .row h4{
+    color: #fff
+}
+        .roadmap.style2 {
+            padding-top: 0;
+        }
 
 /* Header */
 
@@ -2228,7 +2259,7 @@ input, select, textarea {
 		}
 
 			#header h1 a {
-				color: inherit;
+				color: #01cee4;
 			}
 
 		#header .button {
@@ -2268,14 +2299,14 @@ input, select, textarea {
 
 		body.homepage #header:after {
 			content: '';
-			background: #1C0920;
+			background: #012d32;
 			display: block;
 			position: absolute;
 			left: 0;
 			top: 0;
 			width: 100%;
 			height: 100%;
-			opacity: 0.6;
+			opacity: 0.8;
 			-moz-transition: opacity 2.5s ease-in-out;
 			-webkit-transition: opacity 2.5s ease-in-out;
 			-ms-transition: opacity 2.5s ease-in-out;
@@ -2422,7 +2453,7 @@ input, select, textarea {
 		background: #fff;
 		text-align: center;
 		padding: 4.5em 0 4.5em 0;
-		margin-bottom: 0;
+		margin-bottom: -5em;
 	}
 
 		#banner header > p {
@@ -2470,14 +2501,14 @@ input, select, textarea {
 	#footer {
 		position: relative;
 		overflow: hidden;
-		padding: 6em 0 6em 0;
-		background: #2b252c;
+		padding: 2em 0 2em 0;
+		background: #01a4b5;
 		color: #fff;
 	}
 
 		#footer .icon.circled {
 			background: #fff;
-			color: #2b252c;
+			color: #018998;
 		}
 
 		#footer header {
